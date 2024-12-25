@@ -1,7 +1,7 @@
 .part1{
     font-family: Roboto;
     background-color: #1F2937;
-    height: 300px;
+    height: 350px;
     color: #F9FAF6;
 }
 
@@ -67,5 +67,50 @@
     font-size: 15px;
 }
 
+
+.part2 h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    color:#1F2937;
+}
+
+.part2 .images{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; 
+}
+
+.part2 .firstitem,.part2 .seconditem,.part2 .thirditem,.part2 .fourthitem{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    /* margin: 0px 50px 0px 50px; */
+}
+
+.part2 .firstitem{
+    margin-left: 100px;
+}
+
+.part2 .fourthitem{
+    margin-right: 100px;
+}
+
+.part2 img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #3882F6;
+}
+
+.part2 p{
+    font-size: 10px;
+    align-items: center;
+    
+}
 
 

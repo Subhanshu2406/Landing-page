@@ -25,7 +25,7 @@
 }
 
 .firstContainer .childOne{
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 24px;
     font-weight: bold;
     margin-top: 8px;
@@ -108,7 +108,7 @@
 }
 
 .part2 p{
-    font-size: 10px;
+    font-size: 20px;
     align-items: center;
     
 }
@@ -128,5 +128,58 @@
     font-style: italic;
     color: #1F2937;
 }
+
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 25vh;
+}
+
+.part4 .item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #3882F6;
+    width: 60%;
+    height: 20%;
+}
+
+.part4 .para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.part4 .paraOne{
+    margin: 0px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.part4 .paraTwo{
+    margin: 0px;
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.part4 button{
+    border-radius: 12px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+
 
 
